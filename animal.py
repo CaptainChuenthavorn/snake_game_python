@@ -1,12 +1,3 @@
-class Animal:
-    def __init__(self):
-        print("Animal created..")
-
-
-class Fish(Animal):
-    def __init__(self):
-        super().__init__()
-        print("Fish created")
-
-
-a = Fish()
+piano=["a","b","C",'D','E','f','g']
+    #   0   1   2   3   4   5   6
+print(piano[1:-1])
